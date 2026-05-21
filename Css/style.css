@@ -700,14 +700,41 @@
     }
 
     /* ========= RESPONSIVE ========= */
-    @media (max-width: 768px) {
-      section { padding: 60px 0; }
-      .hero-title { font-size: 2.2rem; }
+    @media (max-width: 575.98px) {
+      section { padding: 50px 0; }
+      .hero-title { font-size: 2rem; }
+      .hero-subtitle { font-size: 0.9rem; text-align: justify; }
+      .hero-btns { flex-direction: column; width: 100%; }
+      .btn-whatsapp, .btn-services { width: 100%; justify-content: center; }
+      .hero-icons-row { justify-content: center; gap: 10px; }
+      .hero-icon-item { padding: 10px 12px; min-width: calc(50% - 10px); }
+      .hero-floating-card { display: none; }
+      
+      .section-title { font-size: 1.8rem; }
       .video-wrapper { padding-bottom: 65%; }
-      .portfolio-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
-      .contact-form-wrap { padding: 25px; }
-      .hero-icons-row { gap: 12px; }
-      .hero-icon-item { padding: 12px 14px; }
+      .portfolio-grid { grid-template-columns: 1fr; }
+      .contact-form-wrap { padding: 20px; }
+      .navbar-brand span { font-size: 1.2rem; }
+      .nav-link { font-size: 0.9rem; padding: 8px 10px !important; }
+    }
+
+    @media (min-width: 576px) and (max-width: 991.98px) {
+      section { padding: 70px 0; }
+      .hero-title { font-size: 2.5rem; }
+      .hero-icon-item { padding: 12px 15px; }
+      .portfolio-grid { grid-template-columns: repeat(2, 1fr); } 
+      .contact-form-wrap { padding: 30px; }
+      .video-wrapper { padding-bottom: 55%; }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .portfolio-grid { grid-template-columns: repeat(3, 1fr); } 
+      .hero-title { font-size: 3.5rem; }
+    }
+
+    @media (min-width: 1200px) {
+      .hero-title { font-size: 4.5rem; }
+      .portfolio-grid { grid-template-columns: repeat(4, 1fr); } 
     }
 
     /* Divider wave */
@@ -715,3 +742,6 @@
 
     /* Scroll reveal helper */
     [data-aos] { transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+
+    /* إخفاء العلامة (المؤشر المخصص) من جميع الأجهزة */
+    .custom-cursor, .cursor-follower { display: none !important; }
