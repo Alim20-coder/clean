@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="مؤسسة كلين للتنظيف الشامل - خدمات تنظيف المنازل والفلل والشركات والواجهات والكنب ومكافحة الحشرات بأعلى معايير الجودة في المملكة العربية السعودية" />
+  <meta name="keywords" content="تنظيف منازل, تنظيف فلل, تنظيف شركات, تنظيف واجهات, مكافحة حشرات, تنظيف كنب, تعقيم, تنظيف خزانات, كلين, خدمات نظافة, تنظيف احترافي" />
+  <meta name="author" content="مؤسسة كلين" />
+  <meta property="og:title" content="مؤسسة كلين - خدمة نظافة متكاملة" />
+  <meta property="og:description" content="نقدم خدمات تنظيف شاملة ومتكاملة بأعلى معايير الجودة وأحدث المعدات" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/Css/logo.jpeg" />
+  <title>مؤسسة كلين | خدمة نظافة متكاملة</title>
+
+  <!-- Bootstrap 5 RTL -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/Css/style.css">
+
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <img src="/Css/logo.jpeg" alt="كلين" class="preloader-logo" />
+  <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+  <p style="color:rgba(255,255,255,0.6);font-size:0.85rem;font-family:'Cairo',sans-serif;">جاري التحميل...</p>
+</div>
+
+<!-- CUSTOM CURSOR -->
+<div class="custom-cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- FLOAT WHATSAPP -->
+<a href="https://wa.me/966542760724" class="float-wa" target="_blank" title="تواصل عبر واتساب">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- BACK TO TOP -->
+<button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg" id="mainNav" style="background:transparent;">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+      <img src="/Css/logo.jpeg" alt="كلين" />
+      <span>كلين</span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span style="color:white;font-size:1.4rem;"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav me-auto gap-1">
+        <li class="nav-item"><a class="nav-link" href="#hero">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="#video-section">عن المؤسسة</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">أعمالنا</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">آراء العملاء</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">الأسئلة الشائعة</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+      </ul>
+      <div class="d-flex gap-2 mt-2 mt-lg-0">
+        <a href="tel:0542760724" class="nav-link nav-cta">
+          <i class="fas fa-phone ms-1"></i> اتصل الآن
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section id="hero">
+  <div class="hero-particles" id="particles"></div>
+  <div class="hero-bg-shape s1"></div>
+  <div class="hero-bg-shape s2"></div>
+  <div class="container position-relative z-2 py-2 mt-3">
+    <div class="row align-items-center gy-4">
+      <div class="hero-content col-lg-7">
+        <div class="hero-badge" data-aos="fade-down">
+          <i class="fas fa-star"></i> الرائدون في خدمات النظافة بالمملكة
+        </div>
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+          رواد <span>النظافة الشاملة</span><br />
+          في المملكة العربية السعودية
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+          هل تبحث عن بيئة نقية، خالية من الأوساخ والجراثيم، تعكس رقي أسلوب حياتك أو احترافية شركتك؟ مؤسسة <strong>"كلين"</strong> هي خيارك الأول والمضمون. نحن ندرك تماماً أن النظافة ليست مجرد عملية ترتيب سطحية، بل هي الأساس لراحتك النفسية وصحتك البدنية. لذلك، قمنا بتسخير خبرة تمتد لسنوات، وأحدث المعدات التكنولوجية العالمية في مجال التنظيف والتعقيم، لتقديم خدمة متكاملة لا تُضاهى.
+          <br><br>
+          تشمل خدماتنا الشاملة: تنظيف الفلل والقصور بأدق تفاصيلها، تلميع الواجهات الزجاجية الشاهقة، غسيل وتعقيم الكنب والمفروشات والسجاد بأفضل تقنيات البخار التي تقضي على أصعب البقع والروائح، إلى جانب خدمات المكافحة الدورية للحشرات والقوارض باستخدام مواد آمنة تماماً على صحة أطفالك وحيواناتك الأليفة.
+          <br><br>
+          فريقنا يتألف من كوادر مدربة ومجهزة خصيصاً للتعامل مع كافة أنواع الأسطح بعناية فائقة. نضمن لك السرعة في الإنجاز، الدقة المتناهية في العمل، والالتزام الصارم بالمواعيد. لا تساوم على جودة محيطك، اختر "كلين" حيث تلتقي الثقة المطلقة مع الجودة العالية، لتحصل على نظافة تدوم وتُسعدك في كل زاوية.
+        </p>
+        <ul class="hero-features-list" data-aos="fade-up" data-aos-delay="250">
+          <li><i class="fas fa-check-circle"></i> عمالة محترفة وموثوقة</li>
+          <li><i class="fas fa-check-circle"></i> أحدث المعدات والتقنيات</li>
+          <li><i class="fas fa-check-circle"></i> ضمان الجودة 100%</li>
+        </ul>
+        <div class="hero-btns" data-aos="fade-up" data-aos-delay="300">
+          <a href="https://wa.me/966542760724" class="btn-whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+          </a>
+          <a href="#services" class="btn-services">
+            <i class="fas fa-th-large"></i> خدماتنا
+          </a>
+        </div>
+        <div class="hero-icons-row" data-aos="fade-up" data-aos-delay="400">
+          <div class="hero-icon-item">
+            <i class="fas fa-house-chimney"></i><span>تنظيف المنازل</span>
+          </div>
+          <div class="hero-icon-item">
+            <i class="fas fa-building"></i><span>تنظيف الشركات</span>
+          </div>
+          <div class="hero-icon-item">
+            <i class="fas fa-bug"></i><span>مكافحة الحشرات</span>
+          </div>
+          <div class="hero-icon-item">
+            <i class="fas fa-spray-can-sparkles"></i><span>التعقيم</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center" data-aos="zoom-in" data-aos-delay="200">
+        <div class="hero-img-wrap">
+          <div class="hero-img-glow"></div>
+          <img src="/Css/logo.jpeg" alt="مؤسسة كلين" class="hero-logo-img" />
+          <div class="hero-floating-card">
+            <div class="icon"><i class="fas fa-medal"></i></div>
+            <div class="text">
+              <h5>+10 سنوات</h5>
+              <p>من الخبرة والتميز</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VIDEO + ABOUT SECTION ===== -->
+<section id="video-section">
+  <div class="video-wrapper">
+    <video autoplay muted loop playsinline id="bgVideo" loading="lazy">
+      <source src="/Css/v5.mp4" type="video/mp4" />
+    </video>
+    <div class="video-overlay">
+      <div class="d-flex gap-3">
+        <div class="play-btn" onclick="toggleVideo()" title="تشغيل/إيقاف">
+          <i class="fas fa-pause" id="playIcon"></i>
+        </div>
+        <div class="play-btn" onclick="openModal('video', document.querySelector('#bgVideo source').src)" title="تكبير الفيديو" style="background:var(--primary); border-color:var(--primary-light);">
+          <i class="fas fa-expand"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-text-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-badge"><i class="fas fa-info-circle"></i> من نحن</div>
+        <h2 class="section-title" style="color:var(--accent2);">مؤسسة <span style="color:var(--green-light);">كلين</span> للخدمات المتكاملة</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <p class="about-lead" data-aos="fade-up">
+        مؤسسة كلين هي مؤسسة سعودية متخصصة في تقديم خدمات النظافة الشاملة والمتكاملة بأعلى معايير الجودة والاحترافية. تأسست المؤسسة على يد نخبة من الخبراء المتخصصين في مجال النظافة والتعقيم، بهدف تقديم خدمة استثنائية تفوق توقعات العملاء في كل مرة. نحن نؤمن بأن النظافة ليست مجرد خدمة، بل هي أسلوب حياة ومسؤولية تجاه الصحة العامة والبيئة.
+      </p>
+
+      <div class="about-features-grid" data-aos="fade-up">
+        <div class="about-feat-card">
+          <i class="fas fa-award"></i>
+          <h6>خبرة واسعة</h6>
+          <p>سنوات من التميز والاحترافية في خدمات النظافة</p>
+        </div>
+        <div class="about-feat-card">
+          <i class="fas fa-users-cog"></i>
+          <h6>فريق متدرب</h6>
+          <p>عمالة مدربة تدريباً عالياً على أحدث تقنيات التنظيف</p>
+        </div>
+        <div class="about-feat-card">
+          <i class="fas fa-tools"></i>
+          <h6>أحدث المعدات</h6>
+          <p>نستخدم أحدث المعدات والمواد الكيميائية الآمنة</p>
+        </div>
+        <div class="about-feat-card">
+          <i class="fas fa-clock"></i>
+          <h6>سرعة ودقة</h6>
+          <p>إنجاز المهام في الوقت المحدد بدقة عالية</p>
+        </div>
+        <div class="about-feat-card">
+          <i class="fas fa-shield-halved"></i>
+          <h6>ضمان الجودة</h6>
+          <p>نضمن نتائج استثنائية في كل عملية تنظيف</p>
+        </div>
+        <div class="about-feat-card">
+          <i class="fas fa-tag"></i>
+          <h6>أسعار تنافسية</h6>
+          <p>أفضل الأسعار مع الحفاظ على أعلى مستويات الجودة</p>
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="col-lg-6">
+          <h3 class="about-sub-title"><i class="fas fa-home"></i> تنظيف المنازل والفلل</h3>
+          <p class="about-text">نقدم خدمات تنظيف شاملة للمنازل والفلل والشقق السكنية، بدءاً من التنظيف العام الدوري وصولاً إلى التنظيف العميق بعد التشطيب أو الانتقال. يعمل فريقنا المتخصص على تنظيف كافة أركان المنزل بدقة متناهية، مع الاهتمام بالتفاصيل الدقيقة كالأسقف والجدران والأرضيات والمطابخ والحمامات وغرف النوم والصالات. نستخدم منتجات تنظيف عالية الجودة وآمنة تمامًا على الأطفال والحيوانات الأليفة.</p>
+
+          <h3 class="about-sub-title"><i class="fas fa-building"></i> تنظيف الشركات والمكاتب</h3>
+          <p class="about-text">نتفهم أن بيئة العمل النظيفة تعكس احترافية مؤسستك وتزيد من إنتاجية موظفيك. لذلك نقدم خدمات تنظيف متخصصة للشركات والمكاتب والمنشآت التجارية وفق جداول زمنية تناسب طبيعة عملك سواء كانت يومية أو أسبوعية أو شهرية. نشمل تنظيف المكاتب والقاعات وغرف الاجتماعات والمطابخ ودورات المياه وجميع المرافق.</p>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="about-sub-title"><i class="fas fa-city"></i> تنظيف الواجهات الزجاجية</h3>
+          <p class="about-text">واجهة مبناك هي أول ما يراه الزوار والعملاء، لذا نقدم خدمة تنظيف متخصصة للواجهات الزجاجية الخارجية والداخلية باستخدام معدات ومواد متطورة تضمن لمعة استثنائية وحماية فائقة لزجاج واجهتك. فريقنا مدرب على التعامل مع الارتفاعات الشاهقة باستخدام أحدث وسائل السلامة.</p>
+
+          <h3 class="about-sub-title"><i class="fas fa-spray-can-sparkles"></i> التعقيم والتطهير الشامل</h3>
+          <p class="about-text">في ظل التحديات الصحية المعاصرة، نقدم خدمات تعقيم وتطهير شاملة للمنشآت السكنية والتجارية والصناعية باستخدام مواد معقمة معتمدة ومعدات رش متطورة. نضمن القضاء التام على الجراثيم والبكتيريا والفيروسات، مع الحفاظ على سلامة الساكنين والمستخدمين.</p>
+
+          <h3 class="about-sub-title"><i class="fas fa-couch"></i> تنظيف الكنب والمفروشات</h3>
+          <p class="about-text">نقدم خدمة تنظيف متخصصة للأثاث المنجد والكنب والسجاد والموكيت والستائر باستخدام تقنية البخار والمواد المتخصصة التي تزيل البقع والروائح وتعيد لمبروشاتك نضارتها الأولى.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES SECTION ===== -->
+<section id="services">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-badge"><i class="fas fa-broom"></i> ما نقدمه</div>
+      <h2 class="section-title">خدماتنا <span>المتكاملة</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">نقدم مجموعة شاملة من خدمات النظافة الاحترافية لتلبية جميع احتياجاتك بأعلى معايير الجودة</p>
+    </div>
+    <div class="row g-4">
+      <!-- Service Cards -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#0d47a1,#1976d2);">
+            <i class="fas fa-house-chimney-window"></i>
+            <div class="service-img-overlay"></div>
+          </div>
+          <div class="service-body">
+            <span class="service-tag">الأكثر طلباً</span>
+            <h4 class="service-title">تنظيف المنازل</h4>
+            <p class="service-desc">خدمة تنظيف شاملة للمنازل والشقق بأحدث المعدات ومنتجات التنظيف الآمنة</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check-circle"></i> تنظيف عام شامل</li>
+              <li><i class="fas fa-check-circle"></i> تنظيف المطابخ والحمامات</li>
+              <li><i class="fas fa-check-circle"></i> تلميع الأرضيات والزجاج</li>
+              <li><i class="fas fa-check-circle"></i> تنظيف بعد التشطيب</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#006064,#00acc1);">
+            <i class="fas fa-building-columns"></i>
+            <div class="service-img-overlay"></div>
+          </div>
+          <div class="service-body">
+            <span class="service-tag">للشركات</span>
+            <h4 class="service-title">تنظيف الفلل</h4>
+            <p class="service-desc">خدمة متخصصة لتنظيف الفلل الفاخرة بالكامل مع الاهتمام بكل التفاصيل الدقيقة</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check-circle"></i> تنظيف كامل لجميع الغرف</li>
+              <li><i class="fas fa-check-circle"></i> تنظيف الحدائق والمداخل</li>
+              <li><i class="fas fa-check-circle"></i> تنظيف المسابح والملاحق</li>
+              <li><i class="fas fa-check-circle"></i> تعقيم وتطهير شامل</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#1a237e,#3949ab);">
+            <i class="fas fa-briefcase"></i>
+            <div class="service-img-overlay"></div>
+          </div>
+          <div class="service-body">
+            <span class="service-tag">احترافي</span>
+            <h4 class="service-title">تنظيف الشركات</h4>
+            <p class="service-desc">خدمات تنظيف دورية للشركات والمكاتب والمنشآت التجارية لضمان بيئة عمل نظيفة</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check-circle"></i> تنظيف يومي / أسبوعي / شهري</li>
+              <li><i class="fas fa-check-circle"></i> تنظيف قاعات الاجتماعات</li>
+              <li><i class="fas fa-check-circle"></i> تنظيف مستودعات ومصانع</li>
+              <li><i class="fas fa-check-circle"></i> خدمة على مدار الساعة</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#01579b,#0288d1);">
+            <i class="fas fa-window-maximize"></i>
+            <div class="service-img-overlay"></div>
+          </div>
+          <div class="service-body">
+            <span class="service-tag">متخصص</span>
+            <h4 class="service-title">تنظيف الواجهات</h4>
+            <p class="service-desc">تنظيف الواجهات الزجاجية الخارجية للمباني الشاهقة بأحدث المعدات مع ضمان السلامة</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check-circle"></i> تنظيف واجهات الناطحات</li>
+              <li><i class="fas fa-check-circle"></i> معدات تحمي من الارتفاعات</li>
+              <li><i class="fas fa-check-circle"></i> تلميع ومعالجة الزجاج</li>
+              <li><i class="fas fa-check-circle"></i> طاقم سلامة متخصص</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#37474f,#546e7a);">
+            <i class="fas fa-couch"></i>
+            <div class="service-img-overlay"></div>
+          </div>
+          <div class="service-body">
+            <span class="service-tag">تنظيف البخار</span>
+            <h4 class="service-title">تنظيف الكنب والمفروشات</h4>
+            <p class="service-desc">تنظيف متخصص للكنب والسجاد والموكيت والستائر بتقنية البخار المتطورة</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check-circle"></i> إزالة البقع الصعبة</li>
+              <li><i class="fas fa-check-circle"></i> التخلص من الروائح</li>
+              <li><i class="fas fa-check-circle"></i> تعقيم وتطهير السجاد</li>
+              <li><i class="fas fa-check-circle"></i> تلميع الستائر والمفارش</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#1b5e20,#388e3c);">
+            <i class="fas fa-bug-slash"></i>
+            <div class="service-img-overlay"></div>
+          </div>
+          <div class="service-body">
+            <span class="service-tag">مضمون 100%</span>
+            <h4 class="service-title">مكافحة الحشرات</h4>
+            <p class="service-desc">خدمات مكافحة الحشرات بمواد معتمدة وآمنة تضمن القضاء التام على جميع أنواع الحشرات</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check-circle"></i> مكافحة الصراصير والنمل</li>
+              <li><i class="fas fa-check-circle"></i> طرد الفئران والقوارض</li>
+              <li><i class="fas fa-check-circle"></i> مكافحة البق والحشرات الطائرة</li>
+              <li><i class="fas fa-check-circle"></i> ضمان لمدة 3 أشهر</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section id="why-us">
+  <div class="container position-relative z-1">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-badge"><i class="fas fa-trophy"></i> مميزاتنا</div>
+      <h2 class="section-title">لماذا تختار <span>كلين؟</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">نحن لسنا مجرد شركة تنظيف، نحن شركاء ثقة يعملون على تحسين جودة حياتك</p>
+    </div>
+    <div class="row g-4 mb-5">
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-medal"></i></div>
+          <h5 class="why-title">جودة لا تُضاهى</h5>
+          <p class="why-desc">نلتزم بأعلى معايير الجودة في كل خطوة من عملية التنظيف، من الاستلام حتى التسليم</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-users"></i></div>
+          <h5 class="why-title">فريق محترف</h5>
+          <p class="why-desc">طاقم عمل مدرب على أعلى مستوى، خضعوا لدورات تدريبية مكثفة وتحققنا من حسن سيرتهم</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-leaf"></i></div>
+          <h5 class="why-title">منتجات صديقة للبيئة</h5>
+          <p class="why-desc">نستخدم منتجات تنظيف معتمدة، آمنة على صحة عائلتك وصديقة للبيئة في نفس الوقت</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-headset"></i></div>
+          <h5 class="why-title">دعم 24/7</h5>
+          <p class="why-desc">خدمة عملاء متاحة على مدار الساعة طوال أيام الأسبوع لتلبية جميع استفساراتك وطلباتك</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-clock"></i></div>
+          <h5 class="why-title">التزام بالمواعيد</h5>
+          <p class="why-desc">نحترم وقتك ونلتزم بالمواعيد المحددة دائماً، ونُنجز العمل في الوقت المتفق عليه</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-dollar-sign"></i></div>
+          <h5 class="why-title">أسعار تنافسية</h5>
+          <p class="why-desc">نقدم أفضل جودة بأسعار مناسبة للجميع مع عروض وخصومات دورية لعملائنا الكرام</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-shield-halved"></i></div>
+          <h5 class="why-title">ضمان الرضا</h5>
+          <p class="why-desc">نضمن رضاك التام عن خدماتنا، وإذا لم تكن راضياً نُعيد العمل مجاناً حتى تكون راضياً</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-tools"></i></div>
+          <h5 class="why-title">أحدث التقنيات</h5>
+          <p class="why-desc">نمتلك أحدث معدات وتقنيات التنظيف العالمية لضمان نتائج فائقة لا تستطيع تحقيقها يدوياً</p>
+        </div>
+      </div>
+    </div>
+    <!-- Counters -->
+    <div class="row g-4 mt-2">
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="0">
+        <div class="counter-box">
+          <div class="counter-num"><span class="counter" data-target="5000">0</span>+</div>
+          <div class="counter-label"><i class="fas fa-users me-2"></i>عميل راضٍ</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="counter-box">
+          <div class="counter-num"><span class="counter" data-target="12000">0</span>+</div>
+          <div class="counter-label"><i class="fas fa-briefcase me-2"></i>مشروع منجز</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="counter-box">
+          <div class="counter-num"><span class="counter" data-target="98">0</span>%</div>
+          <div class="counter-label"><i class="fas fa-star me-2"></i>نسبة الرضا</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="counter-box">
+          <div class="counter-num"><span class="counter" data-target="10">0</span>+</div>
+          <div class="counter-label"><i class="fas fa-calendar me-2"></i>سنوات خبرة</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO SECTION ===== -->
+<section id="portfolio">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-badge"><i class="fas fa-images"></i> معرض الأعمال</div>
+      <h2 class="section-title">أعمالنا <span>المميزة</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">شاهد نماذج من أعمالنا الاحترافية في مجال النظافة والتعقيم</p>
+    </div>
+    <div class="filter-btns" data-aos="fade-up">
+      <button class="filter-btn active" data-filter="all">الكل</button>
+      <button class="filter-btn" data-filter="image">الصور</button>
+      <button class="filter-btn" data-filter="video">الفيديوهات</button>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid"></div>
+    <div class="pricing-note" data-aos="fade-up" style="margin-top:40px; background:linear-gradient(135deg, var(--primary-dark), var(--primary)); border-radius:20px; padding:35px 30px; color:white; text-align:center;">
+      <h4 style="font-weight:800; margin-bottom:20px; font-size:1.4rem;"><i class="fas fa-tags" style="margin-left:10px; color:var(--accent2);"></i>أسعارنا التنافسية</h4>
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-4">
+          <div style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); border-radius:16px; padding:20px;">
+            <i class="fas fa-couch" style="font-size:2rem; color:var(--accent2); margin-bottom:10px; display:block;"></i>
+            <h5 style="font-weight:700;">تنظيف الكنب</h5>
+            <p style="font-size:2rem; font-weight:900; color:var(--accent2); margin:10px 0 5px;">150 <small style="font-size:0.9rem;">ريال</small></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); border-radius:16px; padding:20px;">
+            <i class="fas fa-house-chimney" style="font-size:2rem; color:var(--accent2); margin-bottom:10px; display:block;"></i>
+            <h5 style="font-weight:700;">تنظيف الشقق</h5>
+            <p style="font-size:2rem; font-weight:900; color:var(--accent2); margin:10px 0 5px;">350 <small style="font-size:0.9rem;">ريال</small></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); border-radius:16px; padding:20px;">
+            <i class="fas fa-building-columns" style="font-size:2rem; color:var(--accent2); margin-bottom:10px; display:block;"></i>
+            <h5 style="font-weight:700;">تنظيف الفلل</h5>
+            <p style="font-size:2rem; font-weight:900; color:var(--accent2); margin:10px 0 5px;">800 <small style="font-size:0.9rem;">ريال</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section id="testimonials">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-badge"><i class="fas fa-comments"></i> آراء العملاء</div>
+      <h2 class="section-title">ماذا يقول <span>عملاؤنا؟</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">آراء وتجارب حقيقية من عملائنا الكرام الذين وثقوا بخدماتنا</p>
+    </div>
+    <div class="swiper testimonialsSwiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial-slide">
+            <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial-text">خدمة ممتازة جداً وفريق عمل محترف. نظفوا فيلتي بشكل لم أتوقعه، كل شيء لامع ونظيف كأنه جديد. أنصح بالتعامل مع مؤسسة كلين بكل ثقة.</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">أ</div>
+              <div><div class="testimonial-name">أحمد العتيبي</div><div class="testimonial-role">مالك فيلا - الرياض</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-slide">
+            <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial-text">تعاملنا مع كلين لتنظيف مكاتبنا أسبوعياً ونحن سعداء جداً بالنتيجة. الفريق دقيق ومنظم ويُنجز العمل في الوقت المحدد دائماً.</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">س</div>
+              <div><div class="testimonial-name">سلمى المطيري</div><div class="testimonial-role">مديرة شركة - جدة</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-slide">
+            <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+            <p class="testimonial-text">استدعيت كلين لتنظيف كنبتي وسجاداتي، والنتيجة كانت مذهلة. بقع قديمة اختفت تماماً والرائحة أصبحت منعشة. شكراً جزيلاً!</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">م</div>
+              <div><div class="testimonial-name">محمد الغامدي</div><div class="testimonial-role">رب أسرة - الدمام</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-slide">
+            <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial-text">مؤسسة كلين رائعة في مكافحة الحشرات. منذ أكثر من سنة لم أرَ أي حشرة في منزلي. يستخدمون مواد آمنة على الأطفال وهذا أهم شيء.</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">ف</div>
+              <div><div class="testimonial-name">فاطمة القحطاني</div><div class="testimonial-role">ربة منزل - مكة المكرمة</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-slide">
+            <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial-text">تعاملت مع كثير من شركات التنظيف لكن كلين الأفضل بلا منافس. سرعة في الأداء، دقة في العمل، وأسعار معقولة جداً. سأستمر في التعامل معهم.</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">خ</div>
+              <div><div class="testimonial-name">خالد الحربي</div><div class="testimonial-role">مدير مشتريات - الطائف</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination mt-4"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATISTICS ===== -->
+<section id="statistics">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-badge"><i class="fas fa-chart-bar"></i> أرقامنا</div>
+      <h2 class="section-title">إنجازاتنا <span>بالأرقام</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="0">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-smile"></i></div>
+          <div class="stat-number"><span class="stat-counter" data-target="5000">0</span><span class="stat-suffix">+</span></div>
+          <div class="stat-label">عميل سعيد</div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-check-double"></i></div>
+          <div class="stat-number"><span class="stat-counter" data-target="12000">0</span><span class="stat-suffix">+</span></div>
+          <div class="stat-label">مشروع منجز بنجاح</div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-thumbs-up"></i></div>
+          <div class="stat-number"><span class="stat-counter" data-target="98">0</span><span class="stat-suffix">%</span></div>
+          <div class="stat-label">نسبة رضا العملاء</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ===== FAQ SECTION ===== -->
+<section id="faq" style="background:var(--light);">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-badge"><i class="fas fa-question-circle"></i> الأسئلة الشائعة</div>
+      <h2 class="section-title">أسئلة <span>متكررة</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">إجابات على أكثر الأسئلة التي يسألها عملاؤنا</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9" data-aos="fade-up">
+        <div class="accordion faq-accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                ما هي خدمات التنظيف التي تقدمونها؟
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">نقدم خدمات شاملة تشمل: تنظيف المنازل والفلل، تنظيف الشركات والمكاتب، تنظيف الواجهات الزجاجية، تنظيف الكنب والمفروشات والسجاد، مكافحة الحشرات، التعقيم والتطهير، تنظيف الخزانات، وخدمات نظافة ما بعد التشطيب.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                هل المواد المستخدمة في التنظيف آمنة على الأطفال؟
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">نعم، نستخدم حصرياً منتجات تنظيف معتمدة وصديقة للبيئة، آمنة تماماً على الأطفال والحيوانات الأليفة. جميع المواد لدينا حاصلة على شهادات السلامة الدولية.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                كم يستغرق تنظيف منزل كامل؟
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">يتفاوت الوقت حسب حجم المنزل وحالته. في المتوسط، تنظيف شقة 3 غرف يستغرق 3-4 ساعات، بينما قد تستغرق الفيلا الكبيرة يوماً كاملاً. نحن نُقدر الوقت المطلوب مسبقاً عند زيارة الموقع.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                هل تقدمون خدمة طارئة أو في عطلة نهاية الأسبوع؟
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">نعم! نقدم خدماتنا على مدار الساعة 7 أيام في الأسبوع، بما في ذلك أيام العطل والمناسبات. يمكنك التواصل معنا في أي وقت عبر الواتساب للحصول على خدمة طارئة.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                ما هي طرق الدفع المتاحة؟
+              </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">نقبل الدفع النقدي، التحويل البنكي، mada، وجميع وسائل الدفع الإلكتروني الشائعة. يمكن الاتفاق على طريقة الدفع عند التواصل مع فريق المبيعات لدينا.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                هل توفرون ضماناً على خدمات مكافحة الحشرات؟
+              </button>
+            </h2>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">نعم، نقدم ضماناً لمدة 3 أشهر على خدمات مكافحة الحشرات. إذا ظهرت الحشرات مجدداً خلال فترة الضمان، نُعيد المعالجة مجاناً حتى نضمن لك بيئة خالية تماماً من الحشرات.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                كيف أحجز موعداً مع مؤسسة كلين؟
+              </button>
+            </h2>
+            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">الحجز سهل جداً! يمكنك التواصل معنا عبر واتساب على الرقم 0542760724 أو 0572564153، أو من خلال نموذج التواصل في موقعنا. سيتواصل معك أحد ممثلي خدمة العملاء خلال دقائق لتأكيد الموعد.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-badge"><i class="fas fa-envelope"></i> تواصل معنا</div>
+      <h2 class="section-title">نحن <span>بانتظارك</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">تواصل معنا الآن للحصول على عرض سعر مجاني أو لحجز موعد</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="contact-info-card d-flex align-items-center gap-3">
+          <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <h6>اتصل بنا</h6>
+            <p><a href="tel:0542760724">0542760724</a></p>
+            <p><a href="tel:0572564153">0572564153</a></p>
+          </div>
+        </div>
+        <div class="contact-info-card d-flex align-items-center gap-3">
+          <div class="contact-info-icon"><i class="fab fa-whatsapp"></i></div>
+          <div>
+            <h6>واتساب</h6>
+            <p><a href="https://wa.me/966542760724" target="_blank">تواصل عبر واتساب مباشرة</a></p>
+          </div>
+        </div>
+        <div class="contact-info-card d-flex align-items-center gap-3">
+          <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <h6>ساعات العمل</h6>
+            <p>السبت - الخميس: 7ص - 11م</p>
+            <p>الجمعة: 2م - 11م</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-7" data-aos="fade-left">
+        <div class="contact-form-wrap">
+          <h4 style="color:white;font-weight:800;margin-bottom:25px;">أرسل لنا رسالة</h4>
+          <form id="contactForm" onsubmit="handleFormSubmit(event, this)">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">الاسم الكامل</label>
+                <input type="text" name="name" class="form-control" placeholder="أدخل اسمك الكامل" required />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">رقم الجوال</label>
+                <input type="tel" name="phone" class="form-control" placeholder="05xxxxxxxx" dir="ltr" required />
+              </div>
+              <div class="col-12">
+                <label class="form-label">البريد الإلكتروني</label>
+                <input type="email" name="email" class="form-control" placeholder="example@email.com" dir="ltr" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">الخدمة المطلوبة</label>
+                <select name="service" class="form-select" required>
+                  <option value="">اختر الخدمة...</option>
+                  <option value="تنظيف منازل">تنظيف منازل</option>
+                  <option value="تنظيف فلل">تنظيف فلل</option>
+                  <option value="تنظيف شركات">تنظيف شركات</option>
+                  <option value="تنظيف واجهات">تنظيف واجهات</option>
+                  <option value="تنظيف كنب ومفروشات">تنظيف كنب ومفروشات</option>
+                  <option value="مكافحة حشرات">مكافحة حشرات</option>
+                  <option value="تعقيم وتطهير">تعقيم وتطهير</option>
+                  <option value="خدمة أخرى">خدمة أخرى</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label">رسالتك</label>
+                <textarea name="message" class="form-control" rows="4" placeholder="اكتب تفاصيل طلبك هنا..."></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-submit">
+                  <i class="fab fa-whatsapp ms-2" style="font-size:1.2rem;"></i> إرسال الطلب عبر واتسـاب
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-logo">
+          <img src="/Css/logo.jpeg" alt="كلين" />
+        </div>
+        <p class="footer-desc">مؤسسة كلين — خدمة نظافة متكاملة باحترافية عالية. ثقة · جودة · نظافة تدوم. نخدم عملاءنا في جميع أنحاء المملكة العربية السعودية.</p>
+
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6 class="footer-title">روابط سريعة</h6>
+        <ul class="footer-links">
+          <li><a href="#hero"><i class="fas fa-angle-left"></i> الرئيسية</a></li>
+          <li><a href="#video-section"><i class="fas fa-angle-left"></i> عن المؤسسة</a></li>
+          <li><a href="#services"><i class="fas fa-angle-left"></i> الخدمات</a></li>
+          <li><a href="#portfolio"><i class="fas fa-angle-left"></i> أعمالنا</a></li>
+          <li><a href="#testimonials"><i class="fas fa-angle-left"></i> آراء العملاء</a></li>
+          <li><a href="#contact"><i class="fas fa-angle-left"></i> تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6 class="footer-title">خدماتنا</h6>
+        <ul class="footer-links">
+          <li><a href="#services"><i class="fas fa-angle-left"></i> تنظيف منازل</a></li>
+          <li><a href="#services"><i class="fas fa-angle-left"></i> تنظيف فلل</a></li>
+          <li><a href="#services"><i class="fas fa-angle-left"></i> تنظيف شركات</a></li>
+          <li><a href="#services"><i class="fas fa-angle-left"></i> تنظيف واجهات</a></li>
+          <li><a href="#services"><i class="fas fa-angle-left"></i> تنظيف كنب</a></li>
+          <li><a href="#services"><i class="fas fa-angle-left"></i> مكافحة حشرات</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="footer-title">تواصل معنا</h6>
+        <div class="d-flex flex-column gap-3">
+          <a href="tel:0542760724" style="color:rgba(255,255,255,0.7);text-decoration:none;display:flex;align-items:center;gap:10px;">
+            <i class="fas fa-phone" style="color:var(--accent);"></i> 0542760724
+          </a>
+          <a href="tel:0572564153" style="color:rgba(255,255,255,0.7);text-decoration:none;display:flex;align-items:center;gap:10px;">
+            <i class="fas fa-phone" style="color:var(--accent);"></i> 0572564153
+          </a>
+          <a href="https://wa.me/966542760724" target="_blank" style="color:rgba(255,255,255,0.7);text-decoration:none;display:flex;align-items:center;gap:10px;">
+            <i class="fab fa-whatsapp" style="color:#25d366;"></i> واتساب - تواصل الآن
+          </a>
+          <div style="display:flex;align-items:center;gap:10px;color:rgba(255,255,255,0.5);">
+            <i class="fas fa-clock" style="color:var(--accent);"></i> السبت - الخميس: 7ص - 11م
+          </div>
+        </div>
+        <div class="mt-4 p-3" style="background:rgba(37,211,102,0.1);border:1px solid rgba(37,211,102,0.3);border-radius:12px;">
+          <a href="https://wa.me/966542760724" target="_blank" class="d-flex align-items-center gap-3 text-decoration-none">
+            <i class="fab fa-whatsapp" style="font-size:2rem;color:#25d366;"></i>
+            <div>
+              <div style="color:white;font-weight:700;font-size:0.95rem;">تواصل عبر واتساب</div>
+              <div style="color:rgba(255,255,255,0.6);font-size:0.8rem;">رد فوري على مدار الساعة</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 مؤسسة كلين. جميع الحقوق محفوظة.</p>
+      <p style="color:rgba(255,255,255,0.5);">تم التصميم بواسطة <a href="https://www.facebook.com/profile.php?id=100090592885243&locale=ar_AR" target="_blank" style="color:var(--accent2); font-weight:700; text-decoration:none;">GMTWEB</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- MEDIA MODAL -->
+<div class="media-modal-overlay" id="mediaModal" onclick="closeModal(event)">
+  <div class="media-modal-content">
+    <button class="modal-close-btn" onclick="closeMediaModal()"><i class="fas fa-times"></i></button>
+    <div id="modalMediaContent"></div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.4/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.4/dist/ScrollTrigger.min.js"></script>
+<script src="/script.js"></script>   
+</body>
+</html>
